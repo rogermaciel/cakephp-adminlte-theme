@@ -137,8 +137,9 @@ endif;
         <div class="col-md-12">
             <?php
                 try {
-                    $connection = ConnectionManager::get('default');
-                    $connected = $connection->connect();
+                    ConnectionManager::get('default')->getDriver()->connect();
+                    // No exception means success
+                    $connected = true;
                 } catch (Exception $connectionError) {
                     $connected = false;
                     $errorMsg = $connectionError->getMessage();
