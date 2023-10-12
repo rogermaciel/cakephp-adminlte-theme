@@ -1,24 +1,24 @@
 {
-  "name": "maiconpinto/cakephp-adminlte-theme",
-  "description": "CakePHP 4.x AdminLTE Theme.",
+  "name": "rogermaciel/cakephp-adminlte-theme",
+  "description": "CakePHP 5.x AdminLTE Theme.",
   "type": "cakephp-plugin",
   "keywords": ["cakephp", "templates", "plugin"],
-  "homepage": "https://github.com/maiconpinto/cakephp-adminlte-theme",
+  "homepage": "https://github.com/rogermaciel/cakephp-adminlte-theme",
   "license": "MIT",
   "authors": [
     {
-      "name": "Maicon Pinto",
-      "email": "maiconsilva.pinto@gmail.com",
-      "homepage": "https://www.maiconpinto.com.br/",
+      "name": "Roger Maciel",
+      "email": "rogermaciel@gmail.com",
+      "homepage": "https://www.rogermaciel.com.br/",
       "role": "Author"
     }
   ],
   "require": {
-    "php": ">=7.2.0",
-    "cakephp/cakephp": "^4.0"
+    "php": ">=8.1",
+    "cakephp/cakephp": "^5.0.1"
   },
   "require-dev": {
-    "phpunit/phpunit": "~8.5.0"
+    "phpunit/phpunit": "^10.1.0"
   },
   "autoload": {
     "psr-4": {
@@ -26,7 +26,7 @@
     }
   },
   "support": {
-    "issues": "https://github.com/maiconpinto/cakephp-adminlte-theme/issues",
-    "source": "https://github.com/maiconpinto/cakephp-adminlte-theme"
+    "issues": "https://github.com/rogermaciel/cakephp-adminlte-theme/issues",
+    "source": "https://github.com/rogermaciel/cakephp-adminlte-theme"
   }
 }
