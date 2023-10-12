@@ -13,7 +13,7 @@ This release 2.0.0 is can be considered the stable version, as indicated in the 
 You can install using [composer](http://getcomposer.org).
 
 ```
-composer require maiconpinto/cakephp-adminlte-theme
+composer require rogermaciel/cakephp-adminlte-theme
 ```
 
 ### Enable Plugin
@@ -79,7 +79,7 @@ Configure::load('adminlte', 'default');
 
 # Customize Layout
 
-If you want to [Customize Layout](https://github.com/maiconpinto/cakephp-adminlte-theme/wiki/Customize-Layout)
+If you want to [Customize Layout](https://github.com/rogermaciel/cakephp-adminlte-theme/wiki/Customize-Layout)
 
 # What's the features
 
